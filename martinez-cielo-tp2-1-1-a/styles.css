@@ -1,0 +1,341 @@
+* {
+  box-sizing: border-box;
+ 
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image:url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: #0000006d;
+    padding: 0;
+    
+}
+
+/*BARRA NAVEGACION*/
+nav {
+    background-color: rgba(255, 4, 0, 0.761);
+    margin-top: 0;
+    padding: 2px 0;
+    position: fixed;
+    width: 100%;
+}
+
+nav .barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 550px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra li a {
+    color: rgb(255, 255, 255);
+}
+
+.barra li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.slogan{
+    color: rgb(161, 25, 25);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 125px;
+        
+}   
+.slogan h2{
+    color: beige;
+}   /**slogan, colores y eso**/ 
+
+.CTA {
+    color: white;
+    background-color: rgb(161, 25, 25);
+    width: 120px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.CTA a:hover{
+    color: beige;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#definicion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+    background-color: rgb(161, 25, 25);
+    border-radius: 25px;
+    margin: auto; 
+    color: beige;
+}
+
+
+#nosotros, #menu, #cont, #definicion, #inicio  {
+    padding:150px  50px;
+    align-items: center;
+}
+
+.bg-nosotros, .bg-menu, #reservas, #inicio{
+    background-color: rgb(161, 25, 25);
+    border-radius: 25px;
+    padding: 10px;
+    width: 1200px;
+    color: beige;
+    
+}
+#definicion{
+background-color: rgb(161, 25, 25);
+border-radius: 25px;
+width: 1200px;
+display: flex;
+
+align-items: center;
+padding: 50px 10px;
+color: beige;
+
+}
+#definicion h2 {
+    font-weight: bolder;
+    margin-top: 50px;
+    text-align: left;
+}
+#definicion p{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+#nosotros {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    padding: 150px 50px;
+    border-radius: 25px;
+    color: beige;
+}
+
+#nosotros .container {
+    max-width: auto; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: rgba(161, 25, 25); 
+    border-radius: 25px; 
+    margin-bottom: 20px; 
+}
+
+
+
+
+
+
+
+
+
+#nosotros h2{
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 50px;
+    color:beige;
+}
+
+.opina1, .opina2 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width:1200px;
+    height:400px;
+    padding:30px;
+}
+.caja1, .caja2 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 0, 0,50%);
+    box-sizing:border-box;
+    padding:5px;
+}
+ .caja1, .caja2, .caja3, #reservas{
+    font-size: 18px;
+    color: beige;
+    padding-bottom: 20px;;
+ }
+ .caja3{
+    padding: 10px;
+ }
+
+ .opina1 figure,
+.opina2 figure {
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+  }
+
+.opina1 {
+    margin-bottom: 20px;
+}
+
+ figure{
+    box-sizing:border-box;
+    margin:30px;
+}
+ article{
+ 
+ box-sizing: border-box;
+ }
+ 
+
+
+footer {
+        color: beige;
+        background-color: rgb(161, 25, 25);    
+        height: 80px; 
+        padding-top: 5px;
+        text-align: center;
+        font-size: 24px;}
+    
+        #productos{
+            padding:150px  50px;
+                
+        }
+        #productos h2 {
+            color: beige;
+        }
+        .bg-productos{
+            background-color: rgb(161, 36, 50,);
+            padding:50px;
+            border-radius: 25px;
+        }
+        #productos h2{
+            font-size: 42px;
+            font-weight: bolder;
+            margin-top: 50px;
+        }
+        .dflex2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .card{
+            width: 285px;
+            background-color: rgb(128, 0, 0);
+            color: beige; 
+            border-radius: 15px;   
+        }
+        
+        .card div{
+            padding: 10px;
+        }
+        .prod2, .prod4 {
+            margin: 0 10px;
+        }
+        .img-fluid{
+            max-width: 100%;
+            height: auto;
+        }
+        .boton {
+            color: beige;
+            background-color: rgb(128, 0, 0);
+            width: 180px;
+            height: 30px;
+            display: block;
+            text-align: center;
+            line-height: 30px;
+            font-size: 16px;
+            border-radius: 10px;
+            
+        }
+      
+        .boton:hover {
+            background-color: rgb(247, 85, 85);
+            color: rgb(128, 0, 0);        
+        }
+        #galeria{
+            background-color: #ff0000;
+            color: rgb(64, 14, 9);
+            padding: 10px 0;
+        }
+        #galeria h2{
+            font-size: 92px;
+            margin-bottom: 1px;
+        }
+        .card menu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card menu{
+            margin: 0;
+            padding: 0;
+            width: 370px;
+            background-color:rgb(98, 38, 42);
+        }
+        .gale h2{
+            width: 1240px;
+        }
+        .card menu {
+            opacity: 1;
+            transition: .5s ease-in;
+        }
+        .card menu:hover{
+            opacity: .8;
+            transition: .3s ease-out;
+            color: red;
+        }
+ 
